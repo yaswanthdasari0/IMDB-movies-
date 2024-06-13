@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="APIproject.css">
+  <title>IMDB</title>
+</head>
+<body>
+  <h1 class="heading">Filter Your Favorite Movie</h1>
+  <form id="form">
+    <div class="yearstartend">
+    <input type="tel" id="startYear" placeholder="enter start year">
+    <input type="tel" id="endYear" placeholder="enter end year">
+    </div>
+    <input type="text" id="search" placeholder="Search movies...">
+    <div class="ratingstartend">
+    <input type="tel" id="startVoteAverage" placeholder="Start rating">
+    <input type="tel" id="endVoteAverage" placeholder="Ending rating">
+    <button id="but" type="submit">Search</button>
+    </div>
+  </form>
+  <div class="match">
+    <label for="exactMatch">Exact Match</label>
+    <input type="checkbox" id="exactMatch">
+  </div>
+  <div id="main"></div>                                                                                                                               
+  <script src="APIproject.js"></script>
+</body>
+</html>
